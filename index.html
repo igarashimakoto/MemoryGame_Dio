@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+</head>
+
+<body>
+    
+    <!-- div.container>(h2+div+button) --> 
+    <div class="container">
+        <h2>JOGO DA MEMÓRIA</h2>
+        <div class="game"></div>
+        <h2>Attempts: </h2>
+        <h2 class='attempts'>0</h2>
+        <button class="reset" onclick="window.location.reload()">RESET GAME</button>
+    </div>
+
+    <script src="./src/scrypts/engine.js"></script>
+</body>
+</html>
